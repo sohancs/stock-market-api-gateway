@@ -1,0 +1,16 @@
+server:
+  port: 7000
+  
+spring:
+  application:
+    name: stock-market-api-gateway-service
+   
+eureka:
+  client:
+    enabled: true
+    eureka-server-u-r-l-context: http://localhost:8761
+    
+    
+
+   
+   
